@@ -1,0 +1,245 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing:border-box;
+	background-color: #F2F2F0;
+}
+
+
+
+
+.cname{
+	text-align:center;
+	height:220px;
+	padding-top:60px;
+	font-size:50px;
+	
+	color:#DE790F;
+}
+.menu{
+	margin-top:8px;
+	height:50px;
+	text-align:center;
+	padding-top:12px;
+	background-color:#DE790F;
+	
+}
+.menu a{
+	text-decoration:none;
+	background-color:rgba(228, 215, 215, 0.01);
+	color:#fff;
+	font-size:20px;
+	display:block;
+	transition:0.5s;
+}
+.menu a:hover{
+	text-decoration:none;
+	background-color:rgba(228, 215, 215, 0.01);
+	color:#fff;
+	font-size:20px;
+	display:block;
+	font-weight: bold;
+	
+}
+.menu:hover{
+	text-decoration:none;
+	background-color:#33a6f3;
+	color:#fff;
+	font-size:20px;
+	display:block;
+	box-shadow:0px 0px 3px 3px rgb(136, 131, 131);
+	transition: 0.5s;
+}
+
+.banner{
+	background-image:url('../photo/banner.PNG');
+	height:400px;
+	margin-top:8px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-left:150px;
+	padding-top:190px;
+	font-size:50px;
+	color:#fff633;
+	background-attachment:fixed;
+}
+
+.outer{
+	margin-top:20px;
+	height:300px;
+
+	background-color:white;
+	border-radius:5px;
+	border-width:1px;
+	
+	box-shadow:0px 0px 5px 10px #F2F2F0;
+	border:1px solid white;
+	
+}
+.outer h3{
+	background-color:white;
+	margin-left:20px;
+}
+
+.inner7{
+	background-image:url('../photo/oil1.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:200px;
+}
+.inner4{
+	background-image:url('../photo/oil2.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:200px;
+}
+.btn-shop{
+	border-width:0px;
+	height:30px;
+	background-color:#67DF72;
+}
+
+.inner7 a{
+	text-decoration:none;
+	background-color:#67DF72;
+	color:white;
+	font-weight:bold;
+}
+.inner4 a,.inner2 a{
+	text-decoration:none;
+	background-color:#67DF72;
+	color:white;
+	font-weight:bold;
+}
+
+.inner2{
+	margin-left:32px;
+	height:140px;
+	margin-top:80px;
+	margin-bottom:80px;
+	background:white;
+}
+/*
+.box{
+	background-image:linear-gradient(to right,#fb5a04,#fb9404);
+	height:200px;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:55px;
+	box-shadow:0px 0px 5px 5px #f2f2f0;
+}*/
+
+.banner2{
+	position:relative;
+	margin-top:50px;
+	margin-left:70px;
+	height:200px;
+	width:800px;
+}
+
+.banner2 img{
+	position:absolute;
+	margin:0px;
+	height:100%;
+	width:100%;
+	background:white;
+	box-shadow:0px 0px 5px gray;
+}
+.footer1{
+	background:linear-gradient(to top left,orange,rgb(247, 208, 135));
+	height:350px;
+	position: relative;
+	border-radius:5px;
+	border-width:1px;
+	margin-top:20px;
+	
+}
+
+
+.footer{
+	position: absolute;
+	margin-top:0px;
+	margin-left:0px;
+	background: rgba(228, 215, 215, 0.01);
+	display: flex;
+	height:250px;
+}
+.footer .foot{
+	background-color:rgba(228, 215, 215, 0.01);
+	height: 250px;
+	width:30%;
+	margin:10px ;
+	color:white;
+	
+}
+.icon{
+	background-color:rgba(228, 215, 215, 0.01);
+	
+}
+
+.icon li{
+	display: inline;
+	padding:0px 25px;
+	background-color:rgba(228, 215, 215, 0.01);
+}
+.icon li a{
+	background-color:rgba(228, 215, 215, 0.01);
+	
+	
+}
+
+.icon li img{
+	width:50px;
+	height: 50px;
+	border-radius: 10px;
+	background-color:rgba(228, 215, 215, 0.01);
+	margin-left:-25px;
+	box-shadow: -3px -3px 10px rgba(228, 215, 215, 0.8),
+    3px 3px 5px rgb(51, 48, 43);
+}
+.icon li img:hover{
+	box-shadow:0px 0px 5px 5px cyan;
+	transition:0.5s;
+	transform: translatey(-3px);
+}
+
+.ulist{
+	background-color:rgba(228, 215, 215, 0.01);
+	margin-top: 20px;
+	margin-left: 50px;
+	color:#fff;
+	border-left:1px solid #fff;
+
+}
+.ulist li{
+	list-style: square;
+	background-color:rgba(228, 215, 215, 0.01);
+	margin-top:10px;
+}
+.ulist li a{
+	background-color:rgba(255,255,255,0.01);
+	text-decoration: none;
+	color:white
+}
+.plist{
+	background-color:rgba(228, 215, 215, 0.01);
+	color: #fff;
+	margin-left: 80px;
+	border-left: 1px solid #fff;
+}
+.plist li{
+	background-color:rgba(228, 215, 215, 0.01);
+	margin-top: 10px;
+}
+.plist li a{
+	background-color:rgba(255,255,255,0.01);
+	text-decoration: none;
+	color:white
+}
+
+.copyline{
+	color:#fff;
+	background: rgba(228, 215, 215, 0.01);
+	text-align: center;
+	margin-top:50px;
+	/*margin-left:350px;*/
+}
